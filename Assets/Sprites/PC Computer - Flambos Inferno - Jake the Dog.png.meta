@@ -1,0 +1,253 @@
+fileFormatVersion: 2
+guid: 0f68e298009a2db488714e532d5295c7
+timeCreated: 1434008267
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: PC Computer - Flambos Inferno - Jake the Dog_0
+    21300002: PC Computer - Flambos Inferno - Jake the Dog_1
+    21300004: PC Computer - Flambos Inferno - Jake the Dog_2
+    21300006: PC Computer - Flambos Inferno - Jake the Dog_3
+    21300008: PC Computer - Flambos Inferno - Jake the Dog_4
+    21300010: PC Computer - Flambos Inferno - Jake the Dog_5
+    21300012: PC Computer - Flambos Inferno - Jake the Dog_6
+    21300014: PC Computer - Flambos Inferno - Jake the Dog_7
+    21300016: PC Computer - Flambos Inferno - Jake the Dog_8
+    21300018: PC Computer - Flambos Inferno - Jake the Dog_9
+    21300020: PC Computer - Flambos Inferno - Jake the Dog_10
+    21300022: PC Computer - Flambos Inferno - Jake the Dog_11
+    21300024: PC Computer - Flambos Inferno - Jake the Dog_12
+    21300026: PC Computer - Flambos Inferno - Jake the Dog_13
+    21300028: PC Computer - Flambos Inferno - Jake the Dog_14
+    21300030: PC Computer - Flambos Inferno - Jake the Dog_15
+    21300032: PC Computer - Flambos Inferno - Jake the Dog_16
+    21300034: PC Computer - Flambos Inferno - Jake the Dog_17
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: PC Computer - Flambos Inferno - Jake the Dog_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 286
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Flambos Inferno - Jake the Dog_1
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 226
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Flambos Inferno - Jake the Dog_2
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 226
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Flambos Inferno - Jake the Dog_3
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 226
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Flambos Inferno - Jake the Dog_4
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 225
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Flambos Inferno - Jake the Dog_5
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 226
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Flambos Inferno - Jake the Dog_6
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 225
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Flambos Inferno - Jake the Dog_7
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 224
+        width: 29
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Flambos Inferno - Jake the Dog_8
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 223
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Flambos Inferno - Jake the Dog_9
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 163
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Flambos Inferno - Jake the Dog_10
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 162
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Flambos Inferno - Jake the Dog_11
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 161
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Flambos Inferno - Jake the Dog_12
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 161
+        width: 37
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Flambos Inferno - Jake the Dog_13
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 162
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Flambos Inferno - Jake the Dog_14
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 162
+        width: 33
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Flambos Inferno - Jake the Dog_15
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 162
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Flambos Inferno - Jake the Dog_16
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 100
+        width: 31
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Flambos Inferno - Jake the Dog_17
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 0
+        width: 169
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
