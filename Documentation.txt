@@ -1,0 +1,28 @@
+Project Owner: Anastas Anastasov
+Project Purpose:
+The project consists of a 2D Game made with Unity.In the game a spell has been cast upon Jake The Dog (controller by the user) and he is trapped in an endless mine field,but he
+doesn't know it so he is trying to run his way out of it.The aim of the game is to avoid the mines that are incomming and to stay alive as long as possible.The more you stay alive
+the bigger score you get.In the distance Magic Bacons will spawn(Jake's favorite food) and if Jake eats one , he will grow in size and become immune to the mine.
+It is easy to get the hang of the game's basics and that is why it hooks up the user.It also looks very absurd so it is even more irresistable to try out.
+Game Info:
+The game consists of Jake ( controller by the player ) Running,who can run in 1 of the 3 lanes  possitively along the X Axis and everything else loops around him.There is a camera 
+and a background collider attached to him that follow him with appropriate offset.When the background collider collides with an object with appropriate tag ( "background","mine" , "bacon") 
+it moves the object with a specific amount along the X Axis (and a random 1 out of 3 numbers on the Y).If Jake collides with a mine he dies and the game finishes until restarted.
+Upon collision with a bacon Jake enters a bonus mode ,where he is invulnarable until he earns a certain amount of points in the bonus mode.Afterwards he returns to normal.
+The game starts at a specific pace (Jake runs slowly) , but trouhg earning points the difficulty increases and Jakes starts running faster ( holding down the right arrow increases 
+the speed to max) until he reaches a max speed.The game can store highscore and allow different players to compete with each other.
+Game Logic within script files:
+-If the background collider collides with a certain background,bacon,mine he moves it a certain distance ahead along the X axis.
+-The bacon and the mines have fixxed possitions between each other regarding the X axis and a random Y one.
+-If Jake eats a bacon the next one will spawn farther than if he missed it.
+-The force that moves Jake ahead is a 2D Physics property - velocity supported by Unity engine.
+-The score is updated every time a frame is rendered and is equal to jake's current X position + 14 (because he starts at -14 upon start).
+-There are 2 variables that hold the speed at which Jake moves forward 
+     *initial one that changes due to the default algoritm ( and holds the default behaviour of the increasing velocity of Jake)
+     *and Jake's actual velocity which is manipulated by scripts
+Thus if someone hold the right arrow Jake's forward speed is increased to maximum and upon ButtonUp his velocity = the initial velocity from the other variable
+-If Jake eats a bacon a new variable ( baconCounter = current score \ X position) is set but it is not altered.The player's score will increase and therefore current score - baconCounter
+will provide the points earned in Bonus Mode.
+-If Jake dies his velocity vectors are changed ( to simmulate explosion blast off ) and shortly after the GameObject Jake consists of is destroyed.
+-Upon death Jake's name changes to "DeadJake" thus reacting differently to other scripts.
+-Jake grows in size,becomes smaller and flashes red (when bonus is going to end soon) trough Coroutines accessing his localScale and color properties
